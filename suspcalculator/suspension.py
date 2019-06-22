@@ -78,5 +78,7 @@ def susp():
         if int(input("\nSave result?\n 1 - yes\n 0 - no\n\n")) == 1:
             f = open('history.txt', 'a+')
             f.write("\nValue for front " + b + str(resoltf) + "\nValue for rear " + b + str(resoltr) )
+            if a == 3:
+                f.write("\nvalue for front damper on bump stiffness: " + str(resfc) + "\nvalue for rear damper on bump stiffness: " + str(resrc))
             f.close()
         i = i+1
