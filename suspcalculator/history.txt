@@ -1,3 +1,0 @@
-
-Value for front dampers: 6.3
-Value for rear dampers: 7.1
